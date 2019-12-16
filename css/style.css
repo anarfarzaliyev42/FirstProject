@@ -1,7 +1,10 @@
 *{
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Bold.ttf");
+  }
 body{
     margin: 0;
     padding: 0;
@@ -38,7 +41,7 @@ header{
 }
 .head-left p.flat{
     margin: 0;
-    
+    font-family: 'Roboto';
     font-size: 23px;
     padding: 0;
 }
