@@ -242,9 +242,9 @@ div.border{
     height:400px ;
 }
 .welcome-circle{
-    width: 62%;
+    width: 59%;
     background-image: url(/css/asserts/images/download.jfif);
-    height: 210px;
+    height: 200px;
     border-radius: 50%;
     
     background-repeat: no-repeat;
@@ -304,9 +304,9 @@ div.border{
     height:400px ;
 }
 .activity-circle{
-    width: 62%;
+    width: 59%;
     background-image: url(/css/asserts/images/second.jfif);
-    height: 210px;
+    height: 200px;
     margin-top: 20px;
     border-radius: 50%;
     
@@ -367,10 +367,10 @@ div.border{
     height:400px ;
 }
 .staff-circle{
-    width: 62%;
+    width: 59%;
     margin-top: 20px;
     background-image: url(/css/asserts/images/204747-2121x1414-pretesting.jpg);
-    height: 210px;
+    height: 200px;
     border-radius: 50%;
     
     background-repeat: no-repeat;
