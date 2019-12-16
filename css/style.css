@@ -5,6 +5,10 @@
     font-family: "Roboto";
     src: url("Roboto-Bold.ttf");
   }
+  @font-face {
+    font-family: "RobotoL";
+    src: url("Roboto-Light.ttf");
+  }
 body{
     margin: 0;
     padding: 0;
@@ -47,7 +51,7 @@ header{
 }
 .head-left span.pack{
     margin: 0;
-    font-family: 'Kanit';
+    
     font-size: 23px;
     padding: 0;
 }
