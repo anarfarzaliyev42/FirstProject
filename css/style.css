@@ -62,7 +62,7 @@ header{
 
 .head-right{
   
-    width: 24%;
+    width: 22%;
     height: 70px;
     display: flex;
     align-items:center;
@@ -286,6 +286,7 @@ div.border{
 }
 .round-contents-left1{
     display: flex;
+    margin: auto;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -494,4 +495,68 @@ div.border{
 }
 .frame{
     margin-top: 27px;
+}
+.form-content{
+    width: 100%;
+    height: 650px;
+    border: 1px solid black;
+}
+.form-content-container{
+    display: flex;
+    width: 80%;
+    height: 650px;
+    border: 1px solid black;
+    margin: auto;
+}
+.form-content-left{
+    display: flex;
+    width: 55%;
+    height: 650px;
+    border: 1px solid black;
+}
+.form-content-right{
+    width: 35%;
+    height: 650px;
+    margin: auto
+    ;
+    border: 1px solid black;
+}
+.form-content-left-left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.form-content-left-right{
+    width: 60%;
+    
+}
+.tutorials h4,p{
+    padding: 0;
+    margin: 0;
+}
+.latest-offers h4,p{
+    padding: 0;
+    margin: 0;
+}
+.bundle h4,p{
+    padding: 0;
+    margin: 0;
+}
+.size-head{
+    font-size: 25px;
+}
+.form-content-left-right-container div{
+    margin: 0;
+    padding: 0;
+    padding-top: 110px;
+}
+.form-content-left-left-container div{
+    margin: 0;
+    padding: 0;
+    padding-top: 120px;
+}
+.size-icon{
+    font-size: 50px;
 }
