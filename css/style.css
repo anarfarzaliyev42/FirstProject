@@ -522,14 +522,15 @@ div.border{
     border: 1px solid black;
 }
 .form-content-left-left{
-    width: 30%;
+    width: 34%;
+    margin-left: 49px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 .form-content-left-right{
-    width: 60%;
+    width: 113%;
     
 }
 .tutorials h4,p{
@@ -545,18 +546,33 @@ div.border{
     margin: 0;
 }
 .size-head{
-    font-size: 25px;
+    font-size: 26px;
 }
 .form-content-left-right-container div{
     margin: 0;
     padding: 0;
+    margin-bottom: -68px;
     padding-top: 110px;
 }
 .form-content-left-left-container div{
     margin: 0;
+    margin-bottom: -39px;
     padding: 0;
     padding-top: 120px;
 }
 .size-icon{
-    font-size: 50px;
+    font-size: 60px;
+}
+.size-para{
+    font-size: 19px;
+}
+.color-para{
+    color: rgb(151, 151, 151);
+}
+.font-para{
+    font-family: 'Jaldi';
+}
+
+.font-head{
+    font-family: 'Gothic';
 }
