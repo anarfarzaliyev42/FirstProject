@@ -109,6 +109,8 @@ div.flatpack{
     font-size: 30px;
 }
 .banner{
+    margin-top: 3px;
+
     width: 100%;
     color: white;
     height: 850px;
@@ -170,4 +172,53 @@ div.border{
 }
 .transparency{
     opacity: 0.8;
+}
+.threecontent{
+    background: #F4F4F4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 230px;
+    border:1px solid black ;
+}
+.threecontent h4,p{
+    margin: 0;
+    padding:0;
+}
+.threecontent-1{
+    width: 27%;
+    margin-right: 30px;
+    border:1px solid black ;
+    height: 190px;
+}
+.threecontent-2{
+    margin-right: 30px;
+    width: 27%;
+    border:1px solid black ;
+    height: 190px;
+}
+.threecontent-3{
+    width: 27%;
+    border:1px solid black ;
+    height: 190px;
+}
+.threecontent-head{
+    font-family: 'Muli';
+    font-size: 21px;
+}
+.threecontent-content{
+    padding-top:43px ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.threecontent-para{
+    margin-top: 9px;
+    font-family: 'MuliSemi';
+    font-size: 15px;
+}
+.round-contents{
+    
 }
