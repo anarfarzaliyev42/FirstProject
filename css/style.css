@@ -100,3 +100,31 @@ div.flatpack{
     color: #DFDFDF;
     font-size: 30px;
 }
+.banner{
+    width: 100%;
+    height: 900px;
+    border:1px solid black ;
+    background: url(/css/asserts/images/mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.banner-content p{
+    padding: 0;
+    margin: 0;
+}
+.banner-content{
+    border: 1px solid black;
+    width: 67%;
+    height: 284px;
+    margin: auto;
+    text-align: center;
+}
+.banner-content p.elegant{
+    font-size: 51px;
+}
+div.border{
+    border-top: 5px solid black;
+    margin: 0px 391px;
+}
