@@ -2,12 +2,20 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: "Roboto";
-    src: url("Roboto-Bold.ttf");
+    font-family: "Arc";
+    src: url("/css/asserts/fonts/archivo/ArchivoBlack-Regular.ttf");
+  }
+@font-face {
+    font-family: "Gothic";
+    src: url("/css/asserts/fonts/gothic/GothicA1-Regular.ttf");
   }
   @font-face {
-    font-family: "RobotoL";
-    src: url("Roboto-Light.ttf");
+    font-family: "GothicBold";
+    src: url("/css/asserts/fonts/gothic/GothicA1-ExtraBold.ttf");
+  }
+  @font-face {
+    font-family: "Jaldi";
+    src: url("/css/asserts/fonts/jaldi/Jaldi-Regular.ttf");
   }
 body{
     margin: 0;
@@ -18,42 +26,63 @@ header{
     height: 90px;
     background: #FFFFFF;
     border: 1px solid black;
+    box-shadow: 0px 3px #DFDFDF ; 
 }
 .head{
     display: flex;
-    align-items:center;
+    
+    
     justify-content: space-between;
-    width: 75%;
+    width: 72%;
     height: 80px;
     margin:auto;
     border: 1px solid black;
 }
 .head-left{
     border: 1px solid black;
-    width: 13%;
-    height: 43px;
+    width: 15%;
+    height: 45px;
     margin-top: 19px;
     
+    
 }
+
 .head-right{
     border: 1px solid black;
-    width: 25%;
+    width: 22%;
     height: 70px;
     display: flex;
     align-items:center;
+    padding-top: 20px;
     justify-content: space-between;
+}
+div.flatpack{
+    display: flex;
+    height: 25px;
+    
 }
 .head-left p.flat{
     margin: 0;
-    font-family: 'Roboto';
-    font-size: 23px;
+    font-family: 'Arc';
+    font-size: 26px;
     padding: 0;
 }
-.head-left span.pack{
+.head-left p.bounce{
     margin: 0;
+    color: #DFDFDF;
+    font-family: 'GothicBold';
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 3px;
+    padding-bottom: 0px;
     
-    font-size: 23px;
+}
+.head-left p.pack{
+    margin: 0;
+    font-family: 'Gothic';
+    font-size: 26px;
     padding: 0;
+    padding-top: 4px;
 }
 .head-left p{
     font-size: 11px;
@@ -61,11 +90,13 @@ header{
     padding: 0;
 }
 .head-right p{
-    font-size: 13px;
+    font-family: 'Jaldi';
+    font-size: 18px;
+    color: #DFDFDF;
     margin: 0;
     padding: 0;
 }
 .head-right-icons i{
-    color: green;
+    color: #DFDFDF;
     font-size: 30px;
 }
