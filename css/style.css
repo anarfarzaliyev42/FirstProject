@@ -503,7 +503,7 @@ div.border{
     color: white;
     width: 71px;
     height: 20px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid #1da1f2;
     margin: left;
     margin-left: 22px;
@@ -843,4 +843,62 @@ p.joomla{
 }
 .font-family-awesome-italic{
     font-family: 'Jaldi';
+}
+.footer{
+    height: 75px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    
+    align-items: center;
+    background: #498FE5;
+
+}
+.footer-left p{
+    margin: 0;
+    padding: 0;
+}
+.footer-middle p{
+    margin: 0;
+    padding: 0;
+    margin-left: 206px;
+
+}
+.footer-middle{
+    width: 162%;
+}
+.footer-right{
+    height: 44px;
+    width: 77%;
+    background: #4180CD;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-right: 159px;
+    padding-left: -5px;
+}
+.padding-icons-footer{
+    margin-left: 15px;
+}
+.text-color-footer{
+    color: white;
+}
+.text-font-footer{
+    font-family: 'Muli';
+}
+.text-size-footer{
+    font-size: 13px;
+}
+.fixfort{
+    font-family: 'GothicBold';
+
+}
+.footer-left{
+    margin-left: 150px;
+    margin-right: 20px;
+    width: 133%;
+
+}
+.footer-right .facebook{
+    
 }
