@@ -37,6 +37,23 @@
     font-family: "Muli400";
     src: url("/css/asserts/fonts/muli/Muli-Light.ttf");
   }
+  @font-face {
+    font-family: "Frank";
+    src: url("/css/asserts/fonts/wordpress/FrankRuhlLibre-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Cour";
+    src: url("/css/asserts/fonts/cour/Courgette-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Cour";
+    src: url("/css/asserts/fonts/cour/Courgette-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Sans";
+    src: url("/css/asserts/fonts/sans/OpenSans-Regular.ttf");
+  }
+
 
 body{
     margin: 0;
@@ -678,6 +695,7 @@ button.send{
 }
 .trusted-services{
     width: 100%;
+    background: #F4F4F4;
     height: 230px;
     border: 1px solid black;
 }
@@ -705,17 +723,62 @@ button.send{
     
 }
 .trusted-services-container-content h4{
-    font-size: 22px;
+    font-size: 25px;
+    font-family: 'Jaldi';
 }
 .trusted-services-container-content p{
-    font-size: 17px;
-    padding-left: 55px;
-    padding-top: 3px;
+    font-size: 19px;
+    font-family: 'Nono';
+    padding-left: 23px;
+    color: #B3B3B3;
+    padding-top: 0px;
+    margin-top: -9px;
 }
 .font-size-services{
-    font-size: 27px;
+    font-size: 22px;
     padding-right: 68px;
 }
 .wordpress{
     padding-left: 75px;
+}
+p.word{
+    padding-top: 9px;
+    font-size: 25px;
+    font-family: 'Frank';
+}
+.fa-wordpress{
+    font-size: 33px;
+    padding-top: 6px;
+}
+p.travel{
+    font-family: 'Cour';
+    font-size: 29px;
+    padding-top: 4px;
+}
+p.envato{
+    font-family: 'Sans';
+    font-size: 29px;
+    padding-top: 1px;
+}
+.fa-envira{
+    padding-top: 12px;
+}
+p.joomla{
+    font-size: 29px;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+.fa-joomla{
+    font-size: 29px;
+    padding-top: 8px;
+}
+.services-color{
+    color: #74828D;
+}
+.tm{
+    font-size: 5px;
+    padding-top: 1px;
+}
+.spantm{
+    padding-top: 4px;
 }
