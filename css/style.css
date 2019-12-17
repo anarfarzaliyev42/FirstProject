@@ -53,6 +53,10 @@
     font-family: "Sans";
     src: url("/css/asserts/fonts/sans/OpenSans-Regular.ttf");
   }
+  @font-face {
+    font-family: "MuliItalic";
+    src: url("/css/asserts/fonts/muli/Muli-Italic.ttf");
+  }
 
 
 body{
@@ -788,17 +792,55 @@ p.joomla{
 
 }
 .awesome-clients{
+    background: #59A3FC;
     width: 100%;
     height: 250px;
-    border: 1px solid black;
+    
 }
 .awesome-clients-container{
     width: 100%;
     height: 230px;
-    border: 1px solid black;
+    
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
     align-items: center;
 
+}
+.awesome-h4{
+    font-size: 22px;
+    margin-bottom: -19px;
+    
+}
+.awesome-p{
+    width: 46%;
+    font-size: 26px;
+    padding-top: 28px;
+}
+.star-content{
+    font-size: 17px;
+    padding-top: 63px;
+    margin-top: -44px;
+}
+.awesome-para{
+    margin-left:387px;
+
+}
+.head1{
+    margin-top:35px ;
+}
+.detail{
+    font-size: 26px;
+}
+.color-awesome{
+    color: white;
+}
+.fa-star{
+    color: #F6E648;
+}
+.font-family-awesome{
+    font-family: 'Muli';
+}
+.font-family-awesome-italic{
+    font-family: 'Jaldi';
 }
