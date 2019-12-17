@@ -697,14 +697,14 @@ button.send{
     width: 100%;
     background: #F4F4F4;
     height: 230px;
-    border: 1px solid black;
+    
 }
 .trusted-services-container p,h4{
     margin: 0;
     padding: 0;
 }
 .trusted-services-container{
-    border: 1px solid black;
+    padding-top: 10px;
     height: 200px;
 }
 .center{
