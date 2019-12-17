@@ -91,7 +91,7 @@ header{
 
 .head-right{
   
-    width: 22%;
+    width: 23%;
     height: 70px;
     display: flex;
     align-items:center;
@@ -122,9 +122,9 @@ div.flatpack{
 .head-left p.pack{
     margin: 0;
     font-family: 'Gothic';
-    font-size: 27px;
+    font-size: 26px;
     padding: 0;
-    padding-top: 3px;
+    padding-top: 4px;
 }
 .head-left p{
     font-size: 11px;
