@@ -271,7 +271,7 @@ div.border{
     height:400px ;
 }
 .welcome-circle{
-    width: 59%;
+    width: 73%;
     background-image: url(/css/asserts/images/download.jfif);
     height: 200px;
     border-radius: 50%;
@@ -306,7 +306,7 @@ div.border{
 }
 .welcome-content button{
     margin-top: 12px;
-    width: 31%;
+    width: 36%;
     border:none;
     font-family: 'Muli';
     color: white;
@@ -316,6 +316,7 @@ div.border{
 .round-contents-left1{
     display: flex;
     margin: auto;
+    margin-left: 93px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -334,7 +335,7 @@ div.border{
     height:400px ;
 }
 .activity-circle{
-    width: 53%;
+    width: 54%;
     background-image: url(/css/asserts/images/second.jfif);
     height: 200px;
     margin-top: 20px;
@@ -385,6 +386,8 @@ div.border{
 }
 .round-contents-middle1{
     display: flex;
+    margin-right: -9px;
+    margin-top: 7px;
     align-items: center;
 }
 /*-----------------*/
@@ -397,7 +400,7 @@ div.border{
     height:400px ;
 }
 .staff-circle{
-    width: 53%;
+    width: 45%;
     margin-top: 20px;
     background-image: url(/css/asserts/images/204747-2121x1414-pretesting.jpg);
     height: 200px;
@@ -442,12 +445,15 @@ div.border{
 }
 .round-contents-right1{
     display: flex;
+    
+    margin-left:-83px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 .round-contents-right1{
     display: flex;
+    margin-top:7px;
     align-items: center;
 }
 .iframe-content{
@@ -901,6 +907,8 @@ p.joomla{
     width: 133%;
 
 }
-.footer-right .facebook{
-    
+iframe{
+    margin-top: 65px;
+    height: 280px;
+    width: 500px;
 }
